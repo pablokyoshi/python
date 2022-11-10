@@ -1,0 +1,303 @@
+header{
+    background: #234d43;
+    padding:60px 0;
+
+}
+
+.banner{
+    margin: auto;
+}
+
+.painel{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+nav{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+nav li{
+    /*block na vertical (padrão)*/
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #fff164;
+    font-weight: bold;
+    font-size: 22px; 
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #b8ad37;
+    text-decoration: underline;
+}
+
+.lista-produtos{
+    width: 940px;
+    margin: 10px auto;
+}
+
+.lista-produtos li{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+    background-color: #234d43;
+    margin:0 1%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+
+    border-color:  #e2d10e;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+/*pseudo-classes CSS
+:hover,active,link,visited, first-child,nth-child, etc */
+
+/*mouse clicando*/
+.lista-produtos li:hover{
+    border-color: rgb(0, 0, 0);
+}
+
+.lista-produtos li:active{
+    border-color: rgb(255, 255, 255);
+}
+
+.lista-produtos li:hover h2{
+    font-size: 28px;
+}
+
+
+.lista-produtos h2{
+    color: #d4c626;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produtos-desc {
+    color: #d4c626;
+    font-size: 18px;
+
+}
+
+.produtos-preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer{
+    background: url("a grande plantacao.png");
+    text-align: center;
+    padding: 30px 0;
+}
+.copyright {
+    color:#ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: 50%;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.entrada{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #234d43;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background: #075329;
+    transform: scale(1.1,1);
+}
+
+/*
+diferença entre tag, id, class:<p id="id" class="classe> Texto</p> 
+tag força = 1
+class força = 10
+id força = 100
+css inline força = 1000
+*/ 
+
+.container {
+    width: 1280px;
+    height: 800px;
+    background-color: yellow;
+}
+
+.banner{
+    width: 940px;
+    height: 500px;
+    display: flex;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    color: rgba(30, 130, 30, alpha);
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold ;
+    color: #ecdb19;
+    font-family: ;
+}
+
+.principal{
+    padding: 3em 0;
+    background:#186e2d;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    line-height: 1.3em;
+}
+
+.principal strong{
+    font-weight: bold;
+    color: #d4c626;
+}
+
+.principal em{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+
+.subtitulo{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+}
+
+
+.produtos{
+    padding: 20px;
+    background: #b8ad37;
+    width: 900px;
+    
+}
+
+.produtos ul{
+    display: inline-block;
+    line-height: 2.5em;
+    width: 20%;
+    margin: 0 0 0 0 ;
+
+
+}
+
+
+.imagem-produtos{
+    width:280px
+ 
+}
+
+.imagem-produtos:hover{
+    opacity: 0.7;
+}
+
+.imagem-farinha{
+    width: 170px
+}
+
+.imagem-farinha:hover{
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.imagem-pipoca{
+    width: 250px
+}
+
+.imagem-pipoca:hover{
+    opacity: 0.7;
+}
+
+
+.itens{
+    font-size: italic;
+    
+}
+
+/*
+.itens:nth-child(2n+1){
+    first-child
+    :last-child
+    nth-child
+    font-weight: bold;
+}
+*/
+
+.itens:before{
+    content: "🌽";
+}
+
+.mapa{
+    padding: 3em;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+/*
+main > p{
+    background-color: #075329;
+}
+
+
+main >h2 + p{
+    background:#075329;
+}
+
+*/
+

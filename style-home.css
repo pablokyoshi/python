@@ -1,0 +1,89 @@
+body {
+    background: #06682f;
+}
+
+.banner {
+    width: 100%;
+    height: 1000px;
+}
+
+#principal{
+    background-color:#88ad00c4;
+    padding: 10px 70px 10px 70px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+
+p{ 
+    text-align: center;    
+}
+
+#missão{
+    font: size 20px;
+}
+    
+strong {
+    color:rgb(226, 223, 43)
+}
+
+em strong{
+    color:rgb(226, 223, 43)
+}
+
+.produtos{
+    background: #88ad00c4;
+  
+    padding: 0 100px 10px 100px
+}
+
+ul{
+    /*propriedades de texto: block, inline ou inline-block
+    block = vai sempre ocupar a linha
+    inline = não permite alterar espaçamento interno e externo
+    inline-block = posso alterar espaçamento e largura, ocupa somente o conteúdo.
+    */
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.5em;
+    width: 20%;
+    margin-left: 20%
+}
+
+.imagem-produtos{
+    width: 15%
+}
+
+.imagem-farinha{
+    width: 10.0%
+}
+
+.imagem-pipoca{
+    width: 15.0%
+}
+
+
+.itens{
+    font-styles: italic;
+    margin-left: auto;
+}
+
+
